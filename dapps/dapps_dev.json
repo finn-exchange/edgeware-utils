@@ -35,8 +35,33 @@
       "icon": "https://raw.githubusercontent.com/finn-exchange/edgeware-utils//master/icons/dapps/color/Edgeware.png",
       "url": "https://www.edgeware.app/#/explorer",
       "categories": [
-        "evm",
         "utilities"
+      ]
+    }, 
+    {
+      "name": "Commonwealth",
+      "icon": "https://raw.githubusercontent.com/finn-exchange/edgeware-utils//master/icons/dapps/color/Commonwealth.png",
+      "url": "https://commonwealth.im/edgeware",
+      "categories": [
+        "utilities"
+      ]
+    }, 
+    {
+      "name": "Explorer",
+      "icon": "https://raw.githubusercontent.com/finn-exchange/edgeware-utils//master/icons/dapps/color/Edgeware.png",
+      "url": "https://testnet.edgscan.live",
+      "categories": [
+        "test",
+        "evm"
+      ]
+    }, 
+    {
+      "name": "Faucet",
+      "icon": "https://raw.githubusercontent.com/finn-exchange/edgeware-utils//master/icons/dapps/color/Edgeware.png",
+      "url": "https://faucet-beresheet.vercel.app",
+      "categories": [
+        "test",
+        "evm"
       ]
     }
   ]
