@@ -60,8 +60,7 @@
       "icon": "https://raw.githubusercontent.com/finn-exchange/edgeware-utils//master/icons/dapps/color/Edgeware.png",
       "url": "https://faucet-beresheet.vercel.app",
       "categories": [
-        "test",
-        "evm"
+        "test"
       ]
     }
   ]
