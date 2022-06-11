@@ -31,7 +31,7 @@
       ]
     }, 
     {
-      "name": "http://Edgeware.app",
+      "name": "Edgeware.app",
       "icon": "https://raw.githubusercontent.com/finn-exchange/edgeware-utils//master/icons/dapps/color/Edgeware.png",
       "url": "https://www.edgeware.app/#/explorer",
       "categories": [
