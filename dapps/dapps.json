@@ -32,7 +32,7 @@
     }, 
     {
       "name": "http://Edgeware.app",
-      "icon": "https://raw.githubusercontent.com/finn-exchange/edgeware-utils//master/icons/dapps/color/Edgeware.js.svg",
+      "icon": "https://raw.githubusercontent.com/finn-exchange/edgeware-utils//master/icons/dapps/color/Edgeware.svg",
       "url": "https://www.edgeware.app/#/explorer",
       "categories": [
         "evm",
