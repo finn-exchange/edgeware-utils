@@ -17,10 +17,10 @@
             },
             {
                 "assetId": 1,
-                "symbol": "xcDOT",
+                "symbol": "ESP",
                 "precision": 10,
                 "type": "statemine",
-                "priceId": "polkadot",
+                "priceId": "tether",
                 "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Polkadot.svg",
                 "typeExtras": {
                     "assetId": "42259045809535163221576417993425387648"
@@ -28,24 +28,13 @@
             },
             {
                 "assetId": 2,
-                "symbol": "xcaUSD",
+                "symbol": "USDT",
                 "precision": 12,
                 "type": "statemine",
                 "priceId": "tether",
                 "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/AUSD.svg",
                 "typeExtras": {
                     "assetId": "110021739665376159354538090254163045594"
-                }
-            },
-            {
-                "assetId": 3,
-                "symbol": "xcACA",
-                "precision": 12,
-                "type": "statemine",
-                "priceId": "acala",
-                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Acala.svg",
-                "typeExtras": {
-                    "assetId": "224821240862170613278369189818311486111"
                 }
             }
         ],
