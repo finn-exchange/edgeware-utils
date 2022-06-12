@@ -6,9 +6,9 @@
         "assets": [
             {
                 "assetId": 0,
-                "symbol": "EDG",
+                "symbol": "GLMR",
                 "precision": 18,
-                "priceId": "edgeware",
+                "priceId": "moonbeam",
                 "buyProviders": {
                     "transak": {
                        "network": "MAINNET"
@@ -89,6 +89,185 @@
         ]
     },
     {
+        "chainId": "401a1f9dca3da46f5c4091016c8a2f26dcea05865116b286f60f668207d1474b",
+        "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+        "name": "Beresheet EVM",
+        "assets": [
+            {
+                "assetId": 0,
+                "symbol": "MOVR",
+                "precision": 18,
+                "priceId": "moonriver",
+                "buyProviders": {
+                    "transak": {
+                       "network": "MOONRIVER"
+                    }
+                }
+            },
+            {
+                "assetId": 1,
+                "symbol": "xcRMRK",
+                "precision": 10,
+                "priceId": "rmrk",
+                "type": "statemine",
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/RMRK.svg",
+                "typeExtras": {
+                    "assetId": "182365888117048807484804376330534607370"
+                }
+            },
+            {
+                "assetId": 2,
+                "symbol": "xcKSM",
+                "precision": 12,
+                "priceId": "kusama",
+                "type": "statemine",
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Kusama.svg",
+                "typeExtras": {
+                    "assetId": "42259045809535163221576417993425387648"
+                }
+            },
+            {
+                "assetId": 3,
+                "symbol": "xcKINT",
+                "precision": 12,
+                "priceId": "kintsugi",
+                "type": "statemine",
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Kintsugi.svg",
+                "typeExtras": {
+                    "assetId": "175400718394635817552109270754364440562"
+                }
+            },
+            {
+                "assetId": 4,
+                "symbol": "xcKAR",
+                "precision": 12,
+                "priceId": "karura",
+                "type": "statemine",
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Karura.svg",
+                "typeExtras": {
+                    "assetId": "10810581592933651521121702237638664357"
+                }
+            },
+            {
+                "assetId": 5,
+                "symbol": "xcBNC",
+                "precision": 12,
+                "priceId": "bifrost-native-coin",
+                "type": "statemine",
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Bifrost.svg",
+                "typeExtras": {
+                    "assetId": "319623561105283008236062145480775032445"
+                }
+            },
+            {
+                "assetId": 6,
+                "symbol": "xckBTC",
+                "precision": 8,
+                "priceId": "bitcoin",
+                "type": "statemine",
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/KBTC.svg",
+                "typeExtras": {
+                    "assetId": "328179947973504579459046439826496046832"
+                }
+            },
+            {
+                "assetId": 7,
+                "symbol": "xcUSDT",
+                "precision": 6,
+                "priceId": "tether",
+                "type": "statemine",
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/USDT.svg",
+                "typeExtras": {
+                    "assetId": "311091173110107856861649819128533077277"
+                }
+            },
+            {
+                "assetId": 8,
+                "symbol": "xcaUSD",
+                "precision": 12,
+                "priceId": "tether",
+                "type": "statemine",
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/AUSD.svg",
+                "typeExtras": {
+                    "assetId": "214920334981412447805621250067209749032"
+                }
+            },
+            {
+                "assetId": 9,
+                "symbol": "xcCSM",
+                "precision": 12,
+                "priceId": "crust-storage-market",
+                "type": "statemine",
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/CrustShadow.svg",
+                "typeExtras": {
+                    "assetId": "108457044225666871745333730479173774551"
+                }
+            },
+            {
+                "assetId": 10,
+                "symbol": "xcPHA",
+                "precision": 12,
+                "priceId": "pha",
+                "type": "statemine",
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Phala.svg",
+                "typeExtras": {
+                    "assetId": "189307976387032586987344677431204943363"
+                }
+            },
+            {
+                "assetId": 11,
+                "symbol": "xcHKO",
+                "precision": 12,
+                "type": "statemine",
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/HKO.svg",
+                "typeExtras": {
+                    "assetId": "76100021443485661246318545281171740067"
+                }
+            }
+        ],
+        "nodes": [
+            {
+                "url": "wss://wss.moonriver.moonbeam.network",
+                "name": "PureStake node"
+            },
+            {
+                "url": "wss://moonriver.api.onfinality.io/public-ws",
+                "name": "OnFinality node"
+            },
+            {
+                "url": "wss://moonriver-rpc.dwellir.com",
+                "name": "Dwellir node"
+            },
+            {
+                "url": "wss://rpc.pinknode.io/moonriver/explorer",
+                "name": "Pinknode node"
+            }
+        ],
+        "explorers": [
+            {
+                "name": "Subscan",
+                "extrinsic": "https://moonriver.subscan.io/extrinsic/{hash}",
+                "account": "https://moonriver.subscan.io/account/{address}",
+                "event": null
+            }
+        ],
+        "types": {
+            "url": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/moonriver.json",
+            "overridesCommon": true
+        },
+        "externalApi": {
+            "history": {
+                "type": "subquery",
+                "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-moonriver"
+            }
+        },
+        "color": "linear-gradient(135deg, #F2A007 19.29%, #A56B00 100%)",
+        "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Moonriver.svg",
+        "addressPrefix": 1285,
+        "options": [
+            "ethereumBased"
+        ]
+    },{
         "chainId": "742a2ca70c2fda6cee4f8df98d64c4c670a052d9568058982dad9d5a7a135c5b",
         "name": "Edgeware",
         "assets": [
