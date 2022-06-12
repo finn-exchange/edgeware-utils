@@ -8,12 +8,7 @@
                 "assetId": 0,
                 "symbol": "EDG",
                 "precision": 18,
-                "priceId": "edgeware",
-                "buyProviders": {
-                    "transak": {
-                       "network": "MAINNET"
-                    }
-                }
+                "priceId": "edgeware"
             }
         ],
         "nodes": [
