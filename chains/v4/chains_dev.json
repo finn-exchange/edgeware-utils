@@ -60,7 +60,7 @@
             }
         },
         "color": "linear-gradient(135deg, #53CBC8 0%, #11807D 100%)",
-        "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Moonbeam.svg",
+        "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Edgeware.svg",
         "addressPrefix": 1284,
         "options": [
             "ethereumBased"
@@ -131,7 +131,7 @@
             }
         },
         "color": "linear-gradient(135deg, #F2A007 19.29%, #A56B00 100%)",
-        "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Moonriver.svg",
+        "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Edgeware.svg",
         "addressPrefix": 1285,
         "options": [
             "ethereumBased"
