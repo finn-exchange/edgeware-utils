@@ -6,16 +6,37 @@
         "assets": [
             {
                 "assetId": 0,
-                "symbol": "EDG",
+                "symbol": "GLMR",
                 "precision": 18,
-                "priceId": "edgeware",
+                "priceId": "moonbeam",
                 "buyProviders": {
                     "transak": {
                        "network": "MAINNET"
                     }
                 }
             },
-  
+            {
+                "assetId": 1,
+                "symbol": "xcDOT",
+                "precision": 10,
+                "type": "statemine",
+                "priceId": "polkadot",
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Polkadot.svg",
+                "typeExtras": {
+                    "assetId": "42259045809535163221576417993425387648"
+                }
+            },
+            {
+                "assetId": 2,
+                "symbol": "xcaUSD",
+                "precision": 12,
+                "type": "statemine",
+                "priceId": "tether",
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/AUSD.svg",
+                "typeExtras": {
+                    "assetId": "110021739665376159354538090254163045594"
+                }
+            },
             {
                 "assetId": 3,
                 "symbol": "xcACA",
@@ -30,34 +51,38 @@
         ],
         "nodes": [
             {
-                "url": "wss://mainnet.edgewa.re/",
-                "name": "Edgeware Foundation"
+                "url": "wss://wss.api.moonbeam.network",
+                "name": "Moonbeam Foundation node"
             },
             {
-                "url": "wss://edgeware.api.onfinality.io/public-ws",
+                "url": "wss://moonbeam.api.onfinality.io/public-ws",
                 "name": "OnFinality node"
+            },
+            {
+                "url": "wss://moonbeam-rpc.dwellir.com",
+                "name": "Dwellir node"
             }
         ],
         "explorers": [
             {
                 "name": "Subscan",
-                "extrinsic": "https://edgeware.subscan.io/extrinsic/{hash}",
-                "account": "https://edgeware.subscan.io/account/{address}",
+                "extrinsic": "https://moonbeam.subscan.io/extrinsic/{hash}",
+                "account": "https://moonbeam.subscan.io/account/{address}",
                 "event": null
             }
         ],
         "types": {
-            "url": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/edgeware.json",
+            "url": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/moonbeam.json",
             "overridesCommon": true
         },
         "externalApi": {
             "history": {
                 "type": "subquery",
-                "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-edgeware"
+                "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-moonbeam"
             }
         },
         "color": "linear-gradient(135deg, #53CBC8 0%, #11807D 100%)",
-        "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/edgeware.svg",
+        "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Moonbeam.svg",
         "addressPrefix": 1284,
         "options": [
             "ethereumBased"
@@ -70,13 +95,24 @@
         "assets": [
             {
                 "assetId": 0,
-                "symbol": "tEDG",
+                "symbol": "MOVR",
                 "precision": 18,
-                "priceId": "edgeware",
+                "priceId": "moonriver",
                 "buyProviders": {
                     "transak": {
-                       "network": "TESTNET"
+                       "network": "MOONRIVER"
                     }
+                }
+            },
+            {
+                "assetId": 1,
+                "symbol": "xcRMRK",
+                "precision": 10,
+                "priceId": "rmrk",
+                "type": "statemine",
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/RMRK.svg",
+                "typeExtras": {
+                    "assetId": "182365888117048807484804376330534607370"
                 }
             },
             {
@@ -197,28 +233,36 @@
             {
                 "url": "wss://moonriver.api.onfinality.io/public-ws",
                 "name": "OnFinality node"
+            },
+            {
+                "url": "wss://moonriver-rpc.dwellir.com",
+                "name": "Dwellir node"
+            },
+            {
+                "url": "wss://rpc.pinknode.io/moonriver/explorer",
+                "name": "Pinknode node"
             }
         ],
         "explorers": [
             {
                 "name": "Subscan",
-                "extrinsic": "https://beresheet.subscan.io/extrinsic/{hash}",
-                "account": "https://beresheet.subscan.io/account/{address}",
+                "extrinsic": "https://moonriver.subscan.io/extrinsic/{hash}",
+                "account": "https://moonriver.subscan.io/account/{address}",
                 "event": null
             }
         ],
         "types": {
-            "url": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/edgeware.json",
+            "url": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/moonriver.json",
             "overridesCommon": true
         },
         "externalApi": {
             "history": {
                 "type": "subquery",
-                "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-edgeware"
+                "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-moonriver"
             }
         },
         "color": "linear-gradient(135deg, #F2A007 19.29%, #A56B00 100%)",
-        "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/edgeware.svg",
+        "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Moonriver.svg",
         "addressPrefix": 1285,
         "options": [
             "ethereumBased"
