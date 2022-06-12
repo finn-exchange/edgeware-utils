@@ -17,7 +17,7 @@
             },
             {
                 "assetId": 1,
-                "symbol": "xcDOT",
+                "symbol": "ESP",
                 "precision": 10,
                 "type": "statemine",
                 "priceId": "polkadot",
@@ -28,8 +28,8 @@
             },
             {
                 "assetId": 2,
-                "symbol": "xcaUSD",
-                "precision": 12,
+                "symbol": "USDT",
+                "precision": 6,
                 "type": "statemine",
                 "priceId": "tether",
                 "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/AUSD.svg",
@@ -39,8 +39,8 @@
             },
             {
                 "assetId": 3,
-                "symbol": "xcACA",
-                "precision": 12,
+                "symbol": "ECEP",
+                "precision": 18,
                 "type": "statemine",
                 "priceId": "acala",
                 "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Acala.svg",
@@ -51,23 +51,19 @@
         ],
         "nodes": [
             {
-                "url": "wss://wss.api.moonbeam.network",
-                "name": "Moonbeam Foundation node"
+                "url": "wss://mainnet.edgewa.re",
+                "name": "Edgeware node"
             },
             {
-                "url": "wss://moonbeam.api.onfinality.io/public-ws",
+                "url": "wss://edgeware.api.onfinality.io/public-ws",
                 "name": "OnFinality node"
-            },
-            {
-                "url": "wss://moonbeam-rpc.dwellir.com",
-                "name": "Dwellir node"
             }
         ],
         "explorers": [
             {
                 "name": "Subscan",
-                "extrinsic": "https://moonbeam.subscan.io/extrinsic/{hash}",
-                "account": "https://moonbeam.subscan.io/account/{address}",
+                "extrinsic": "https://edgeware.subscan.io/extrinsic/{hash}",
+                "account": "https://edgeware.subscan.io/account/{address}",
                 "event": null
             }
         ],
@@ -82,7 +78,7 @@
             }
         },
         "color": "linear-gradient(135deg, #53CBC8 0%, #11807D 100%)",
-        "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Moonbeam.svg",
+        "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/edgeware.svg",
         "addressPrefix": 1284,
         "options": [
             "ethereumBased"
