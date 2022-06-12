@@ -6,9 +6,9 @@
         "assets": [
             {
                 "assetId": 0,
-                "symbol": "GLMR",
+                "symbol": "EDG",
                 "precision": 18,
-                "priceId": "moonbeam",
+                "priceId": "edgeware",
                 "buyProviders": {
                     "transak": {
                        "network": "MAINNET"
