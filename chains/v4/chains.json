@@ -24,19 +24,23 @@
         ],
         "nodes": [
             {
-                "url": "wss://mainnet.edgewa.re",
-                "name": "Edgeware Foundation node"
+                "url": "wss://wss.api.moonbeam.network",
+                "name": "Moonbeam Foundation node"
             },
             {
-                "url": "wss://edgeware.api.onfinality.io/public-ws",
+                "url": "wss://moonbeam.api.onfinality.io/public-ws",
                 "name": "OnFinality node"
+            },
+            {
+                "url": "wss://moonbeam-rpc.dwellir.com",
+                "name": "Dwellir node"
             }
         ],
         "explorers": [
             {
-                "name": "Edgscan",
-                "extrinsic": "https://edgeware.subscan.io/extrinsic/{hash}",
-                "account": "https://edgscan.live/account/{address}",
+                "name": "Subscan",
+                "extrinsic": "https://moonbeam.subscan.io/extrinsic/{hash}",
+                "account": "https://moonbeam.subscan.io/account/{address}",
                 "event": null
             }
         ],
@@ -82,15 +86,27 @@
         ],
         "nodes": [
             {
-                "url": "wss://beresheet.edgewa.re",
-                "name": "Beresheet node"
+                "url": "wss://wss.moonriver.moonbeam.network",
+                "name": "PureStake node"
+            },
+            {
+                "url": "wss://moonriver.api.onfinality.io/public-ws",
+                "name": "OnFinality node"
+            },
+            {
+                "url": "wss://moonriver-rpc.dwellir.com",
+                "name": "Dwellir node"
+            },
+            {
+                "url": "wss://rpc.pinknode.io/moonriver/explorer",
+                "name": "Pinknode node"
             }
         ],
         "explorers": [
             {
                 "name": "Subscan",
-                "extrinsic": "https://beresheet.subscan.io/extrinsic/{hash}",
-                "account": "https://beresheet.edgscan.com/account/{address}",
+                "extrinsic": "https://moonriver.subscan.io/extrinsic/{hash}",
+                "account": "https://moonriver.subscan.io/account/{address}",
                 "event": null
             }
         ],
@@ -101,7 +117,7 @@
         "externalApi": {
             "history": {
                 "type": "subquery",
-                "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-edgeware"
+                "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-moonriver"
             }
         },
         "color": "linear-gradient(135deg, #F2A007 19.29%, #A56B00 100%)",
