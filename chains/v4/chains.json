@@ -17,17 +17,6 @@
             },
             {
                 "assetId": 1,
-                "symbol": "ESP",
-                "precision": 10,
-                "type": "statemine",
-                "priceId": "tether",
-                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Polkadot.svg",
-                "typeExtras": {
-                    "assetId": "42259045809535163221576417993425387648"
-                }
-            },
-            {
-                "assetId": 2,
                 "symbol": "USDT",
                 "precision": 12,
                 "type": "statemine",
