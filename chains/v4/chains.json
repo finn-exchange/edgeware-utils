@@ -24,23 +24,19 @@
         ],
         "nodes": [
             {
-                "url": "wss://wss.api.moonbeam.network",
-                "name": "Moonbeam Foundation node"
+                "url": "wss://mainnet.edgewa.re",
+                "name": "Edgeware Foundation node"
             },
             {
-                "url": "wss://moonbeam.api.onfinality.io/public-ws",
+                "url": "wss://edgeware.api.onfinality.io/public-ws",
                 "name": "OnFinality node"
-            },
-            {
-                "url": "wss://moonbeam-rpc.dwellir.com",
-                "name": "Dwellir node"
             }
         ],
         "explorers": [
             {
                 "name": "Subscan",
-                "extrinsic": "https://moonbeam.subscan.io/extrinsic/{hash}",
-                "account": "https://moonbeam.subscan.io/account/{address}",
+                "extrinsic": "https://edgeware.subscan.io/extrinsic/{hash}",
+                "account": "https://edgeware.subscan.io/account/{address}",
                 "event": null
             }
         ],
