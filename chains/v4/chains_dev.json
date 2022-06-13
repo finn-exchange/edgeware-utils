@@ -24,11 +24,11 @@
         ],
         "nodes": [
             {
-                "url": "https://mainnet.edgewa.re/evm",
+                "url": "wss://mainnet.edgewa.re",
                 "name": "Edgeware Foundation node"
             },
             {
-                "url": "https://edgeware.api.onfinality.io/public",
+                "url": "wss://edgeware.api.onfinality.io/public-ws",
                 "name": "OnFinality node"
             }
         ],
