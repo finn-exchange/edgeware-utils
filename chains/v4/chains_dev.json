@@ -24,12 +24,16 @@
         ],
         "nodes": [
             {
-                "url": "wss://mainnet.edgewa.re",
+                "url": "wss://mainnet.edgewa.re/",
                 "name": "Edgeware Foundation node"
             },
             {
                 "url": "wss://edgeware.api.onfinality.io/public-ws",
                 "name": "OnFinality node"
+            },
+            {
+                "url": "wss://moonbeam-rpc.dwellir.com",
+                "name": "Dwellir node"
             }
         ],
         "explorers": [
