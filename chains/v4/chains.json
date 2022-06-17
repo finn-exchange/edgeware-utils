@@ -83,9 +83,9 @@
                 "name": "Commonwealth Labs"
             },
             {
-                "url": "wss://edgeware.api.onfinality.io/public-ws",
-                "name": "OnFinality node"
-            }
+                "url": "wss://mainnet1.edgewa.re",
+                "name": "Commonwealth Labs 1"
+            },
         ],
         "types": {
             "url": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/types/edgeware.json",
