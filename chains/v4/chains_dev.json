@@ -81,8 +81,8 @@
                 "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-moonbeam"
             }
         },
-        "color": "linear-gradient(135deg, #53CBC8 0%, #11807D 100%)",
-        "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Moonbeam.svg",
+        "color": "linear-gradient(315deg, #D43079 0%, #F93C90 100%)",
+        "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/edgeware.svg",
         "addressPrefix": 1284,
         "options": [
             "ethereumBased"
