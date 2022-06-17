@@ -34,7 +34,7 @@
             },
             {
                 "url": "wss://mainnet3.edgewa.re",
-                "name": "Dwellir node"
+                "name": "Edgeware node"
             }
         ],
         "explorers": [
