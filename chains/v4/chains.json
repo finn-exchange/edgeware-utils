@@ -49,12 +49,6 @@
             "url": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/moonbeam.json",
             "overridesCommon": true
         },
-        "externalApi": {
-            "history": {
-                "type": "subquery",
-                "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-edgeware"
-            }
-        },
         "color": "linear-gradient(315deg, #D43079 0%, #F93C90 100%)",
         "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Edgeware.svg",
         "addressPrefix": 1284,
