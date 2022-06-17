@@ -29,7 +29,7 @@
         ],
         "nodes": [
             {
-                "url": "wss://edgeware.api.onfinality.io/public",
+                "url": "wss://edgeware.api.onfinality.io/public-ws",
                 "name": "OnFinality node"
             },
             {
