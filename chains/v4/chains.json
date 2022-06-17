@@ -6,9 +6,9 @@
         "assets": [
             {
                 "assetId": 0,
-                "symbol": "GLMR",
+                "symbol": "EDG",
                 "precision": 18,
-                "priceId": "moonbeam",
+                "priceId": "edgeware",
                 "buyProviders": {
                     "transak": {
                        "network": "MAINNET"
@@ -17,10 +17,10 @@
             },
             {
                 "assetId": 1,
-                "symbol": "xcDOT",
+                "symbol": "USDT",
                 "precision": 10,
                 "type": "statemine",
-                "priceId": "polkadot",
+                "priceId": "tether",
                 "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Polkadot.svg",
                 "typeExtras": {
                     "assetId": "42259045809535163221576417993425387648"
