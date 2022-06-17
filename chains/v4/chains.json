@@ -8,7 +8,7 @@
                 "assetId": 0,
                 "symbol": "GLMR",
                 "precision": 18,
-                "priceId": "edgeware",
+                "priceId": "moonbeam",
                 "buyProviders": {
                     "transak": {
                        "network": "MAINNET"
@@ -24,6 +24,28 @@
                 "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Polkadot.svg",
                 "typeExtras": {
                     "assetId": "42259045809535163221576417993425387648"
+                }
+            },
+            {
+                "assetId": 2,
+                "symbol": "xcaUSD",
+                "precision": 12,
+                "type": "statemine",
+                "priceId": "tether",
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/AUSD.svg",
+                "typeExtras": {
+                    "assetId": "110021739665376159354538090254163045594"
+                }
+            },
+            {
+                "assetId": 3,
+                "symbol": "xcACA",
+                "precision": 12,
+                "type": "statemine",
+                "priceId": "acala",
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Acala.svg",
+                "typeExtras": {
+                    "assetId": "224821240862170613278369189818311486111"
                 }
             }
         ],
@@ -59,8 +81,8 @@
                 "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-moonbeam"
             }
         },
-        "color": "linear-gradient(315deg, #D43079 0%, #F93C90 100%)",
-        "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Edgeware.svg",
+        "color": "linear-gradient(135deg, #53CBC8 0%, #11807D 100%)",
+        "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Moonbeam.svg",
         "addressPrefix": 1284,
         "options": [
             "ethereumBased"
