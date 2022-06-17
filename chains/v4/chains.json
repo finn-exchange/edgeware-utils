@@ -1,6 +1,6 @@
 [
     {
-        "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+        "chainId": "fe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d",
         "parentId": "742a2ca70c2fda6cee4f8df98d64c4c670a052d9568058982dad9d5a7a135c5b",
         "name": "Edgeware EVM",
         "assets": [
@@ -29,12 +29,16 @@
         ],
         "nodes": [
             {
-                "url": "wss://edgeware.api.onfinality.io/public-ws",
+                "url": "wss://wss.api.moonbeam.network",
+                "name": "Moonbeam Foundation node"
+            },
+            {
+                "url": "wss://moonbeam.api.onfinality.io/public-ws",
                 "name": "OnFinality node"
             },
             {
-                "url": "wss://mainnet2.edgewa.re",
-                "name": "Edgeware node"
+                "url": "wss://moonbeam-rpc.dwellir.com",
+                "name": "Dwellir node"
             }
         ],
         "explorers": [
@@ -81,7 +85,7 @@
             {
                 "url": "wss://mainnet1.edgewa.re",
                 "name": "Commonwealth Labs 1"
-            }
+            },
         ],
         "types": {
             "url": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/types/edgeware.json",
