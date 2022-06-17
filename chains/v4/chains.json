@@ -29,10 +29,6 @@
         ],
         "nodes": [
             {
-                "url": "wss://wss.api.moonbeam.network",
-                "name": "Moonbeam Foundation node"
-            },
-            {
                 "url": "wss://moonbeam.api.onfinality.io/public-ws",
                 "name": "OnFinality node"
             },
@@ -81,10 +77,6 @@
             {
                 "url": "wss://mainnet.edgewa.re",
                 "name": "Commonwealth Labs"
-            },
-            {
-                "url": "wss://edgeware.api.onfinality.io/public-ws",
-                "name": "OnFinality node"
             }
         ],
         "types": {
