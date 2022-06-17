@@ -36,17 +36,6 @@
                 "typeExtras": {
                     "assetId": "110021739665376159354538090254163045594"
                 }
-            },
-            {
-                "assetId": 3,
-                "symbol": "xcACA",
-                "precision": 12,
-                "type": "statemine",
-                "priceId": "acala",
-                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Acala.svg",
-                "typeExtras": {
-                    "assetId": "224821240862170613278369189818311486111"
-                }
             }
         ],
         "nodes": [
