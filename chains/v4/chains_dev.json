@@ -1,14 +1,14 @@
 [
     {
         "chainId": "fe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d",
-        "parentId": "742a2ca70c2fda6cee4f8df98d64c4c670a052d9568058982dad9d5a7a135c5b",
+        "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
         "name": "Edgeware EVM",
         "assets": [
             {
                 "assetId": 0,
-                "symbol": "EDG",
+                "symbol": "GLMR",
                 "precision": 18,
-                "priceId": "edgeware",
+                "priceId": "moonbeam",
                 "buyProviders": {
                     "transak": {
                        "network": "MAINNET"
