@@ -40,8 +40,8 @@
         "explorers": [
             {
                 "name": "Subscan",
-                "extrinsic": "https://moonbeam.subscan.io/extrinsic/{hash}",
-                "account": "https://moonbeam.subscan.io/account/{address}",
+                "extrinsic": "https://edgeware.subscan.io/extrinsic/{hash}",
+                "account": "https://edgeware.subscan.io/account/{address}",
                 "event": null
             }
         ],
@@ -52,7 +52,7 @@
         "externalApi": {
             "history": {
                 "type": "subquery",
-                "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-moonbeam"
+                "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-edgeware"
             }
         },
         "color": "linear-gradient(315deg, #D43079 0%, #F93C90 100%)",
