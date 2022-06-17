@@ -83,8 +83,8 @@
                 "name": "Commonwealth Labs"
             },
             {
-                "url": "wss://mainnet1.edgewa.re",
-                "name": "Commonwealth Labs 1"
+                "url": "wss://edgeware.api.onfinality.io/public-ws",
+                "name": "OnFinality node"
             }
         ],
         "types": {
