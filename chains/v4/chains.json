@@ -31,10 +31,6 @@
             {
                 "url": "wss://moonbeam.api.onfinality.io/public-ws",
                 "name": "OnFinality node"
-            },
-            {
-                "url": "wss://moonbeam-rpc.dwellir.com",
-                "name": "Dwellir node"
             }
         ],
         "explorers": [
