@@ -38,39 +38,27 @@
     },
     {
         "chainId": "feb426ca713f0f46c96465b8f039890370cf6bfd687c9076ea2843f58a6ae8a7",
+        "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "name": "Kabocha",
         "assets": [
             {
                 "assetId": 0,
                 "symbol": "KAB",
-                "precision": 12,
-                "priceId": "kabocha"
+                "precision": 12
             }
         ],
         "nodes": [
             {
                 "url": "wss://kabocha.jelliedowl.com",
-                "name": "Kabocha Network"
+                "name": "JelliedOwl node"
             }
         ],
         "types": {
-            "url": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/types/edgeware.json",
-            "overridesCommon": false
+            "url": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/kabocha.json",
+            "overridesCommon": true
         },
-        "explorers": [
-            {
-                "name": "Subscan",
-                "extrinsic": "https://kabocha.subscan.io/extrinsic/{hash}",
-                "account": "https://kabocha.subscan.io/account/{address}",
-                "event": null
-            },
-            {
-                "name": "Sub.ID",
-                "account": "https://sub.id/{address}"
-            }
-        ],
-        "color": "linear-gradient(315deg, #ffffff 0%, #000000 100%)",
-        "icon": "https://uploads-ssl.webflow.com/6165bd639a16516a78189203/625044718d944c8648ba2150_kabocha-logo.svg",
+        "color": "linear-gradient(315deg, #C9B904 0%, #D3CD4A 66.15%, #FDF775 100%)",
+        "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Kabocha.svg",
         "addressPrefix": 7
     }
 ]
