@@ -1,64 +1,5 @@
 [
     {
-        "chainId": "2021",
-        "parentId": "742a2ca70c2fda6cee4f8df98d64c4c670a052d9568058982dad9d5a7a135c5b",
-        "name": "Edgeware EVM",
-        "assets": [
-            {
-                "assetId": 0,
-                "symbol": "EDG",
-                "precision": 18,
-                "priceId": "edgeware",
-                "buyProviders": {
-                    "transak": {
-                       "network": "MAINNET"
-                    }
-                }
-            },
-            {
-                "assetId": 1,
-                "symbol": "USDT",
-                "precision": 10,
-                "type": "statemine",
-                "priceId": "tether",
-                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Polkadot.svg",
-                "typeExtras": {
-                    "assetId": "42259045809535163221576417993425387648"
-                }
-            }
-        ],
-        "nodes": [
-            {
-                "url": "wss://edgeware.api.onfinality.io/public-ws",
-                "name": "OnFinality node"
-            }
-        ],
-        "explorers": [
-            {
-                "name": "Subscan",
-                "extrinsic": "https://edgeware.subscan.io/extrinsic/{hash}",
-                "account": "https://edgeware.subscan.io/account/{address}",
-                "event": null
-            }
-        ],
-        "types": {
-            "url": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/moonbeam.json",
-            "overridesCommon": true
-        },
-        "externalApi": {
-            "history": {
-                "type": "subquery",
-                "url": "https://api.subquery.network/sq/nova-wallet/nova-wallet-moonbeam"
-            }
-        },
-        "color": "linear-gradient(315deg, #D43079 0%, #F93C90 100%)",
-        "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Edgeware.svg",
-        "addressPrefix": 1284,
-        "options": [
-            "ethereumBased"
-        ]
-    },
-    {
         "chainId": "742a2ca70c2fda6cee4f8df98d64c4c670a052d9568058982dad9d5a7a135c5b",
         "name": "Edgeware",
         "assets": [
@@ -93,6 +34,43 @@
         ],
         "color": "linear-gradient(315deg, #000000 0%, #3F3F3F 100%)",
         "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Edgeware.svg",
+        "addressPrefix": 7
+    },
+    {
+        "chainId": "feb426ca713f0f46c96465b8f039890370cf6bfd687c9076ea2843f58a6ae8a7",
+        "name": "Kabocha",
+        "assets": [
+            {
+                "assetId": 0,
+                "symbol": "KAB",
+                "precision": 12,
+                "priceId": "kabocha"
+            }
+        ],
+        "nodes": [
+            {
+                "url": "wss://kabocha.jelliedowl.com",
+                "name": "Kabocha Network"
+            }
+        ],
+        "types": {
+            "url": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/types/edgeware.json",
+            "overridesCommon": false
+        },
+        "explorers": [
+            {
+                "name": "Subscan",
+                "extrinsic": "https://kabocha.subscan.io/extrinsic/{hash}",
+                "account": "https://kabocha.subscan.io/account/{address}",
+                "event": null
+            },
+            {
+                "name": "Sub.ID",
+                "account": "https://sub.id/{address}"
+            }
+        ],
+        "color": "linear-gradient(315deg, #000000 0%, #3F3F3F 100%)",
+        "icon": "https://uploads-ssl.webflow.com/6165bd639a16516a78189203/625044718d944c8648ba2150_kabocha-logo.svg",
         "addressPrefix": 7
     }
 ]
