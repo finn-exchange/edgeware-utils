@@ -69,7 +69,7 @@
                 "account": "https://sub.id/{address}"
             }
         ],
-        "color": "linear-gradient(315deg, #c0c0c0 0%, #c0c0c0 100%)",
+        "color": "linear-gradient(315deg, #ffffff 0%, #ffffff 100%)",
         "icon": "https://uploads-ssl.webflow.com/6165bd639a16516a78189203/625044718d944c8648ba2150_kabocha-logo.svg",
         "addressPrefix": 7
     }
