@@ -62,19 +62,18 @@
         "addressPrefix": 27
     },
     {
-        "chainId": "feb426ca713f0f46c96465b8f039890370cf6bfd687c9076ea2843f58a6ae8a7",
-        "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
-        "name": "Kabocha",
+        "chainId": "b588d15b45475ed40f7f66b8f9cf6c77a6b9abe04905e7adb2377f4fa13f0eac",
+        "name": "Soupcan",
         "assets": [
             {
                 "assetId": 0,
-                "symbol": "tKAB",
+                "symbol": "SOUP",
                 "precision": 12
             }
         ],
         "nodes": [
             {
-                "url": "wss://kabocha.jelliedowl.com",
+                "url": "wss://soupcan1.jelliedowl.com",
                 "name": "JelliedOwl node"
             }
         ],
