@@ -60,5 +60,30 @@
         "color": "linear-gradient(315deg, #C9B904 0%, #D3CD4A 66.15%, #FDF775 100%)",
         "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Kabocha.svg",
         "addressPrefix": 27
+    },
+    {
+        "chainId": "feb426ca713f0f46c96465b8f039890370cf6bfd687c9076ea2843f58a6ae8a7",
+        "parentId": "b588d15b45475ed40f7f66b8f9cf6c77a6b9abe04905e7adb2377f4fa13f0eac",
+        "name": "Soupcan",
+        "assets": [
+            {
+                "assetId": 0,
+                "symbol": "tKAB",
+                "precision": 12
+            }
+        ],
+        "nodes": [
+            {
+                "url": "wss://soupcan1.jelliedowl.com",
+                "name": "JelliedOwl node"
+            }
+        ],
+        "types": {
+            "url": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/kabocha.json",
+            "overridesCommon": true
+        },
+        "color": "linear-gradient(315deg, #f20707 0%, #D3CD4A 66.15%, #FDF775 100%)",
+        "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Kabocha.svg",
+        "addressPrefix": 27
     }
 ]
