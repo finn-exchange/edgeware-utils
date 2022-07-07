@@ -32,7 +32,7 @@
                 "account": "https://sub.id/{address}"
             }
         ],
-        "color": "linear-gradient(315deg, #000000 0%, #3F3F3F 100%)",
+        "color": "linear-gradient(315deg, #D43079 0%, #F93C90 100%)",
         "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Edgeware.svg",
         "addressPrefix": 7
     },
