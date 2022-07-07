@@ -59,6 +59,6 @@
         },
         "color": "linear-gradient(315deg, #C9B904 0%, #D3CD4A 66.15%, #FDF775 100%)",
         "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Kabocha.svg",
-        "addressPrefix": 7
+        "addressPrefix": 27
     }
 ]
