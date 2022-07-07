@@ -81,7 +81,7 @@
             "url": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/kabocha.json",
             "overridesCommon": true
         },
-        "color": "linear-gradient(315deg, #C9B904 0%, #D3CD4A 66.15%, #FDF775 100%)",
+        "color": "linear-gradient(315deg, #C91804 0%, #D15E49 66.15%, #FD7775 100%)",
         "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Kabocha.svg",
         "addressPrefix": 27
     }
