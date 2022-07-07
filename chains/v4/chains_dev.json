@@ -121,5 +121,29 @@
         "color": "linear-gradient(315deg, #C9B904 0%, #D3CD4A 66.15%, #FDF775 100%)",
         "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Kabocha.svg",
         "addressPrefix": 27
+    },
+    {
+        "chainId": "d0af9589988713384dcddcefe742b4847e3b5feb48afeda9c8270ee35e7ea519",
+        "name": "Popart",
+        "assets": [
+            {
+                "assetId": 0,
+                "symbol": "POP",
+                "precision": 12
+            }
+        ],
+        "nodes": [
+            {
+                "url": "wss://popart1.jelliedowl.com",
+                "name": "JelliedOwl node"
+            }
+        ],
+        "types": {
+            "url": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/kabocha.json",
+            "overridesCommon": true
+        },
+        "color": "linear-gradient(315deg, #000000 0%, #3F3F3F 100%)",
+        "icon": "https://apps.decentration.org/static/pop.df2e3bf8..svg",
+        "addressPrefix": 42
     }
 ]
