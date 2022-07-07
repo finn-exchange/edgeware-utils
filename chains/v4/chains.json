@@ -44,7 +44,6 @@
                 "assetId": 0,
                 "symbol": "tEDG",
                 "precision": 18,
-                "priceId": "edgeware"
             }
         ],
         "nodes": [
@@ -81,7 +80,8 @@
             {
                 "assetId": 0,
                 "symbol": "KAB",
-                "precision": 12
+                "precision": 12,
+                "priceId": "kabocha"
             }
         ],
         "nodes": [
