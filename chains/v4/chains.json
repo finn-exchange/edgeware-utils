@@ -37,6 +37,43 @@
         "addressPrefix": 7
     },
     {
+        "chainId": "459015af8910a8c68308175c80a3967671183157871fa705e6d5b78149aa9ff5",
+        "name": "Beresheet",
+        "assets": [
+            {
+                "assetId": 0,
+                "symbol": "tEDG",
+                "precision": 18,
+                "priceId": "edgeware"
+            }
+        ],
+        "nodes": [
+            {
+                "url": "wss://beresheet.edgewa.re",
+                "name": "Commonwealth Labs"
+            }
+        ],
+        "types": {
+            "url": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/types/edgeware.json",
+            "overridesCommon": false
+        },
+        "explorers": [
+            {
+                "name": "Subscan",
+                "extrinsic": "https://edgeware.subscan.io/extrinsic/{hash}",
+                "account": "https://edgeware.subscan.io/account/{address}",
+                "event": null
+            },
+            {
+                "name": "Sub.ID",
+                "account": "https://sub.id/{address}"
+            }
+        ],
+        "color": "linear-gradient(315deg, #000000 0%, #3F3F3F 100%)",
+        "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Edgeware.svg",
+        "addressPrefix": 7
+    },
+    {
         "chainId": "feb426ca713f0f46c96465b8f039890370cf6bfd687c9076ea2843f58a6ae8a7",
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "name": "Kabocha",
