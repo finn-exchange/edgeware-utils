@@ -1,15 +1,19 @@
 {
   "categories": [
     {
-      "name": "EVM",
+      "name": "EdgeEVM",
       "id": "evm"
     },
     {
-      "name": "Utilities",
-      "id": "utilities"
+      "name": "Edgeware",
+      "id": "edgeware"
     },
     {
-      "name": "Test",
+      "name": "Kabocha",
+      "id": "kabocha"
+    }
+    {
+      "name": "Testnet",
       "id": "test"
     }
   ],
@@ -19,7 +23,8 @@
       "url": "https://sub.id/#/",
       "icon": "https://raw.githubusercontent.com/finn-exchange/edgeware-utils/master/icons/dapps/color/Sub.ID.png",
       "categories": [
-        "utilities"
+        "edgeware",
+        "kabocha"
       ]
     },
     {
@@ -27,7 +32,8 @@
       "icon": "https://raw.githubusercontent.com/finn-exchange/edgeware-utils//master/icons/dapps/color/Polkadot.js.svg",
       "url": "https://polkadot.js.org/apps/#",
       "categories": [
-        "utilities"
+        "edgeware",
+        "kabocha"
       ]
     }, 
     {
@@ -35,7 +41,7 @@
       "icon": "https://raw.githubusercontent.com/finn-exchange/edgeware-utils//master/icons/dapps/color/Edgeware.png",
       "url": "https://www.edgeware.app/#/explorer",
       "categories": [
-        "utilities"
+        "edgeware"
       ]
     }, 
     {
@@ -43,18 +49,34 @@
       "icon": "https://raw.githubusercontent.com/finn-exchange/edgeware-utils//master/icons/dapps/color/Commonwealth.png",
       "url": "https://commonwealth.im/edgeware",
       "categories": [
-        "utilities"
+        "edgeware"
       ]
     }, 
     {
-      "name": "Explorer",
+      "name": "Edgscan",
       "icon": "https://raw.githubusercontent.com/finn-exchange/edgeware-utils//master/icons/dapps/color/Edgeware.png",
       "url": "https://testnet.edgscan.live",
       "categories": [
         "evm",
-        "test"
+        "edgeware"
       ]
-    }, 
+    },
+    {
+      "name": "Kabochascan",
+      "icon": "https://raw.githubusercontent.com/finn-exchange/edgeware-utils//master/icons/dapps/white/kabocha.svg",
+      "url": "https://kabochascan.com",
+      "categories": [
+        "kabocha"
+      ]
+    },
+    {
+      "name": "Kabocha Console",
+      "icon": "https://raw.githubusercontent.com/finn-exchange/edgeware-utils//master/icons/dapps/white/kabocha.svg",
+      "url": "https://apps.decentration.org/?rpc=wss%3A%2F%2Fkabocha.jelliedowl.com#/explorer",
+      "categories": [
+        "kabocha"
+      ]
+    },
     {
       "name": "Faucet",
       "icon": "https://raw.githubusercontent.com/finn-exchange/edgeware-utils//master/icons/dapps/color/Edgeware.png",
