@@ -12,8 +12,8 @@
         ],
         "nodes": [
             {
-                "url": "wss://edgeware.api.onfinality.io",
-                "name": "Commonwealth Labs"
+                "url": "wss://edgeware.api.onfinality.io/public-ws",
+                "name": "Onfinality Labs"
             }
         ],
         "types": {
