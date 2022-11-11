@@ -21,8 +21,8 @@
             }
         ],
         "types": {
-            "url": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/types/edgeware.json",
-            "overridesCommon": false
+            "url": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/edgeware.json",
+            "overridesCommon": true
         },
         "explorers": [
             {
@@ -57,8 +57,8 @@
             }
         ],
         "types": {
-            "url": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/types/edgeware.json",
-            "overridesCommon": false
+            "url": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/beresheet.json",
+            "overridesCommon": true
         },
         "explorers": [
             {
