@@ -12,8 +12,8 @@
         ],
         "nodes": [
             {
-                "url": "wss://edgeware.api.onfinality.io/public-ws",
-                "name": "Onfinality Labs"
+                "url": "wss://mainnet2.edgewa.re",
+                "name": "Commonwealth"
             }
         ],
         "types": {
@@ -37,7 +37,7 @@
         "addressPrefix": 7
     },
     {
-        "chainId": "459015af8910a8c68308175c80a3967671183157871fa705e6d5b78149aa9ff5",
+        "chainId": "8da6a03e0989154ff8c1977cbc0cbd55f6879d8759c272a4f3c078cef794bf5f",
         "name": "Beresheet",
         "assets": [
             {
@@ -48,8 +48,8 @@
         ],
         "nodes": [
             {
-                "url": "wss://beresheet.edgewa.re",
-                "name": "Commonwealth Labs"
+                "url": "wss://beresheet.jelliedowl.net",
+                "name": "Jelliedowl"
             }
         ],
         "types": {
