@@ -48,8 +48,8 @@
         ],
         "nodes": [
             {
-                "url": "wss://beresheet.edgewa.re",
-                "name": "Commonwealth Labs"
+                "url": "wss://beresheet.jelliedowl.net",
+                "name": "Jelliedowl"
             }
         ],
         "types": {
