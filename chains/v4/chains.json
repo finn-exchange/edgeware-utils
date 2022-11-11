@@ -12,6 +12,10 @@
         ],
         "nodes": [
             {
+                "url": "wss://mainnet.edgscan.live",
+                "name": "Edgeverse Node"
+            },
+            {
                 "url": "wss://edgeware.api.onfinality.io/public-ws",
                 "name": "Onfinality Labs"
             }
