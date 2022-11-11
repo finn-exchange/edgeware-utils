@@ -12,12 +12,12 @@
         ],
         "nodes": [
             {
-                "url": "wss://mainnet.edgscan.live",
-                "name": "Edgeverse"
+                "url": "wss://mainnet.edgewa.re",
+                "name": "Commonwealth Labs"
             },
             {
                 "url": "wss://edgeware.api.onfinality.io/public-ws",
-                "name": "Onfinality"
+                "name": "OnFinality node"
             }
         ],
         "types": {
