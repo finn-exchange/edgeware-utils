@@ -12,8 +12,8 @@
         ],
         "nodes": [
             {
-                "url": "wss://mainnet2.edgewa.re",
-                "name": "Commonwealth"
+                "url": "wss://mainnet.edgscan.live",
+                "name": "Edgeverse"
             },
             {
                 "url": "wss://edgeware.api.onfinality.io/public-ws",
