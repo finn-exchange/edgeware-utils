@@ -14,10 +14,6 @@
             {
                 "url": "wss://edgeware.jelliedowl.net/",
                 "name": "Kabocha Labs"
-            },
-            {
-                "url": "wss://edgeware.api.onfinality.io/public-ws",
-                "name": "OnFinality node"
             }
         ],
         "types": {
